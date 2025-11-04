@@ -1,8 +1,8 @@
-﻿const double PI = "3.14";
+﻿const double PI = 3.14;
 
 double radius = 5;
-double area = PI + radius * radius;
+double area = PI * radius * radius;
 double perimeter = 2 * PI * radius;
 
 Console.WriteLine($"Area of circle: {area}");
-Console.WriteLine($)
+Console.WriteLine($"Perimeter of circle: {perimeter}");
